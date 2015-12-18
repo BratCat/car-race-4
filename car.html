@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>4 Car Race</title>
+        
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/styles.css">
+        
+    </head>
+    
+    <body id="race">
+        <h1>4 Car Race</h1>
+        
+        <input type="button" value="Race!" id="go">
+        <input type="button" value="Reset" id="reset">
+        
+        <div id="racetrack">
+            <img src="img/car-1.png" alt="Green car" id="car1" class="car">
+            <img src="img/car-2.png" alt="Red car" id="car2" class="car">
+            <img src="img/car-3.png" alt="Green car" id="car3" class="car">
+            <img src="img/car-4.png" alt="Red car" id="car4" class="car">
+        </div>
+        
+        <div id="raceInfoContainer" class="clearfix">
+            <h2>Results</h2>
+            <div id="raceInfo1" class="raceInfo">Car 1<span></span></div>
+            <div id="raceInfo2" class="raceInfo">Car 2<span></span></div>
+            <div id="raceInfo3" class="raceInfo">Car 3<span></span></div>
+            <div id="raceInfo4" class="raceInfo">Car 4<span></span></div>
+        </div>
+        
+        <!-- Load the CDN first -->
+        <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+        
+        <!-- If CDN fails to load, serve up the local version -->
+        <script>window.jQuery || document.write('<script src="js/jquery-2.1.4.js"><\/script>');</script>
+        
+        <script src="js/script.js"></script>
+        <p><a href="http://www.freepik.com/free-photos-vectors/car">Car vector designed by Freepik</a></p>
+        <p>&copy; Marcia McAvoy - BratCat Designs 2015</p>
+    </body>
+    
+</html>
+
